@@ -23,6 +23,9 @@ namespace Some_Inharitanse_Samples.Private
 
     public class privateSample1
     {
+        public static void MakeChecks()
+        {
 
+        }
     }
 }
