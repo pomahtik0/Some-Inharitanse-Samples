@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Some_Inharitanse_Samples.Private
 {
-    internal class privateSample1
+    public class privateSample1
     {
 
     }
