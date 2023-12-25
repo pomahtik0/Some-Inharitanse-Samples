@@ -25,7 +25,9 @@ namespace Some_Inharitanse_Samples.Private
     {
         public static void MakeChecks()
         {
-
+            Foo foo = new Foo();
+            FooHeir foo1 = new FooHeir();
+            Console.WriteLine($"Неможливо отримати доступ ні до приватних полів, ні до наслідуваних приватних полів, з зовнішнього классу, висновок з внутрішнього класу наступний:\n {foo1.AccessCheck}");
         }
     }
 }
