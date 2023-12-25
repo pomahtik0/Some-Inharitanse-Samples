@@ -29,7 +29,13 @@ namespace Some_Inharitanse_Samples.BasicSamples.Internal
     {
         public void AccessCheck()
         {
-
+            Foo foo = new Foo();
+            FooHeir heir = new FooHeir();
+            foo.Age = 1;
+            foo.CheckAge();
+            heir.Age = 2;
+            heir.CheckAge();
+            Console.WriteLine("До всіх полів є доступ в середині збірки");
         }
     }
 }
