@@ -14,7 +14,11 @@ namespace Some_Inharitanse_Samples.Private
     }
     internal class FooHeir : Foo
     {
-
+        private int Age { get; set; }
+        public string AccessCheck()
+        {
+            return "Неможливо отримати доступ до приватних полів батьківського класу, ні оверрайднути функцію, але можна створити Нові поля з тими ж назвами";
+        }
     }
 
     public class privateSample1
