@@ -27,6 +27,9 @@ namespace Some_Inharitanse_Samples.BasicSamples.Internal
     }
     public class internalSample1
     {
+        public void AccessCheck()
+        {
 
+        }
     }
 }
