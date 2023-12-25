@@ -10,7 +10,7 @@ namespace Some_Inharitanse_Samples.BasicSamples.Private
     {
         private string Name {  get; set; }
         private int Age { get; set; }
-        private int CheckAge() => Age;
+        private int CheckAge() => Age; // приватна функція, не може бути віртуальною.
     }
     internal class FooHeir : Foo
     {
