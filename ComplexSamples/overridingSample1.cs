@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Some_Inharitanse_Samples.ComplexSamples
+namespace Some_Inharitanse_Samples.ComplexSamples.Sample1
 {
     interface I
     {
