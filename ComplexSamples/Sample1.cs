@@ -25,7 +25,7 @@ namespace Some_Inharitanse_Samples.ComplexSamples.Sample1
         }
     }
 
-    internal class overridingSample1
+    internal class Sample1
     {
         public static void SampleMain()
         {
